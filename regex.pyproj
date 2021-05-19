@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>490267ef-7b49-433b-9580-070843b1cbac</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>words.py</StartupFile>
+    <StartupFile>time_changer.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="e-mails.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="taxi.py" />
+    <Compile Include="time_changer.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="words.py">
       <SubType>Code</SubType>
     </Compile>
